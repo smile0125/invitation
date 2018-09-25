@@ -1,0 +1,39 @@
+.position_absolute {
+    position: absolute;
+}
+
+.swiper-slide {
+    position: relative;
+}
+
+.one_bg {
+    top: 0;
+    left: 0;
+}
+
+.renWu {
+    position: absolute;
+    width: 65%;
+    top: 7%;
+    left: 22%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.one_kuang_one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.one_kuang_two {
+    position: absolute;
+    top: 0;
+    width: 95%;
+    left: 2.6%;
+    z-index: 1;
+}
