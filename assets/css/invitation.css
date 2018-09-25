@@ -70,3 +70,21 @@ img {
     width: 55%;
     top: 74%;
 }
+
+.redLineBox {
+    position: absolute;
+    bottom: 3%;
+}
+
+.leftRBox {
+    position: absolute;
+    left: -10%;
+    bottom: -10%;
+    z-index: 1;
+}
+
+.rightRBox {
+    position: absolute;
+    right: -10%;
+    bottom: -10%;
+}

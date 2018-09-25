@@ -4,9 +4,10 @@
     <list default="true" id="074b35aa-79f8-4af3-929e-306eef3eb866" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/invitation.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/invitation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/FqsFa-9XTemCw3MGMmknNc9yE49t.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/line.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/FscJDD5iYASnA4jVvwfEu-KzMAgQ.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/leftText.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/FtDT0PlfanuP0uzyelg1N7lJ8kAq.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/rightText.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/FhXhJHvjQuyd97uf1gIR2VOzr-Wg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/redline.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/FkzYi9me9rfAp6dN4EPPSSwhUMHc.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/rightR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/FljmmwXCzrUfzX5bippRzxd3gqjT.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/leftR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/FngM3tdMIAPKplmgAF4O7rA5ez-u.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,14 +22,16 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="79" column="45" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+            <state relative-caret-position="320">
+              <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -37,8 +40,8 @@
       <file leaf-file-name="invitation.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/invitation.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+            <state relative-caret-position="733">
+              <caret line="82" column="15" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -146,12 +149,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537338259900</updated>
       <workItem from="1537338261354" duration="2264000" />
-      <workItem from="1537854621059" duration="4071000" />
+      <workItem from="1537854621059" duration="4921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6335000" />
+    <option name="totallyTimeSpent" value="7185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -214,28 +217,13 @@
     <entry file="file://$PROJECT_DIR$/assets/img/renwu.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/yanhua.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/baiyun.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/001.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/FhXhJHvjQuyd97uf1gIR2VOzr-Wg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/FkzYi9me9rfAp6dN4EPPSSwhUMHc.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/FljmmwXCzrUfzX5bippRzxd3gqjT.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/line.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/FngM3tdMIAPKplmgAF4O7rA5ez-u.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/rightText.png">
@@ -244,24 +232,41 @@
     <entry file="file://$PROJECT_DIR$/assets/img/leftText.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/redline.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/rightR.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/FngM3tdMIAPKplmgAF4O7rA5ez-u.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/yanhua.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/leftR.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="79" column="45" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+        <state relative-caret-position="320">
+          <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/invitation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        <state relative-caret-position="733">
+          <caret line="82" column="15" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
         </state>
       </provider>
     </entry>
