@@ -88,3 +88,18 @@ img {
     right: -10%;
     bottom: -10%;
 }
+
+.yanhuaBox1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 20%;
+}
+
+.yanhuaBox2 {
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+    right: 5%;
+}

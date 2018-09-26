@@ -8,6 +8,7 @@
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="assets/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/invitation.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
 
     <!-- Demo styles -->
     <style>
@@ -56,36 +57,42 @@
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide one">
-            <img src="assets/img/hongsekuang.png" class="one_kuang_one" alt="">
-            <img src="assets/img/hongsekuang2.png" class="one_kuang_two" alt="">
-            <div class="one_bg position_absolute">
+            <img src="assets/img/hongsekuang.png" class="one_kuang_one ani" swiper-animate-effect="fadeInUp" swiper-animate-delay="0.3" alt="">
+            <img src="assets/img/hongsekuang2.png" class="one_kuang_two ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="0.6" alt="">
+            <div class="yanhuaBox1 ani" swiper-animate-effect="rotateIn" swiper-animate-delay="3.3s">
+                <img src="assets/img/yanhua.png" alt="">
+            </div>
+            <div class="yanhuaBox2 ani" swiper-animate-effect="rotateIn" swiper-animate-delay="3.0s">
+                <img src="assets/img/yanhua.png" alt="">
+            </div>
+            <div class="one_bg position_absolute ani" swiper-animate-effect="slideInRight" swiper-animate-delay="0.9s">
                 <img src="assets/img/beijing.png" alt="">
                 <div class="renWu">
                     <img src="assets/img/renwu.png" alt="">
                 </div>
             </div>
-            <div class="baiyunBox">
+            <div class="baiyunBox ani" swiper-animate-effect="slideInDown" swiper-animate-delay="1.2s">
                 <img src="assets/img/baiyun.png" alt="">
             </div>
-            <div class="webox">
+            <div class="webox ani" swiper-animate-effect="rotateIn" swiper-animate-delay="1.5s">
                 <img src="assets/img/001.png" alt="">
             </div>
-            <div class="leftText">
+            <div class="leftText ani" swiper-animate-effect="slideInLeft" swiper-animate-delay="1.8s">
                 <img src="assets/img/leftText.png" alt="">
             </div>
-            <div class="rightBox">
+            <div class="rightBox ani" swiper-animate-effect="slideInRight" swiper-animate-delay="2.1s">
                 <img src="assets/img/rightText.png" alt="">
             </div>
-            <div class="linBox">
+            <div class="linBox ani" swiper-animate-effect="slideInDown" swiper-animate-delay="2.4s">
                 <img src="assets/img/line.png" alt="">
             </div>
-            <div class="redLineBox">
+            <div class="redLineBox ani" swiper-animate-effect="rotateIn" swiper-animate-delay="2.7s">
                 <img src="assets/img/redline.png" alt="">
             </div>
-            <div class="leftRBox">
+            <div class="leftRBox ani" swiper-animate-effect="rotateIn" swiper-animate-delay="3.0s">
                 <img src="assets/img/leftR.png" alt="">
             </div>
-            <div class="rightRBox">
+            <div class="rightRBox ani" swiper-animate-effect="rotateIn" swiper-animate-delay="3.3s">
                 <img src="assets/img/rightR.png" alt="">
             </div>
         </div>
@@ -105,6 +112,7 @@
 
 <!-- Swiper JS -->
 <script src="assets/js/swiper.min.js"></script>
+<script src="assets/js/swiper.animate1.0.3.min.js"></script>
 
 <!-- Initialize Swiper -->
 <script>
@@ -114,7 +122,16 @@
             el: '.swiper-pagination',
             clickable: true,
         },
-        loop: true
+        loop: true,
+        on: {
+            init: function () {
+                swiperAnimateCache(this); //隐藏动画元素
+                swiperAnimate(this); //初始化完成开始动画
+            },
+            slideChangeTransitionEnd: function () {
+                swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+            }
+        }
     });
 </script>
 </body>
