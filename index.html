@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>婚礼邀请函</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="assets/css/swiper.min.css">
@@ -56,7 +57,7 @@
 <!-- Swiper -->
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <audio src="assets/mp3/Westlife-Beautiful%20In%20White%20(Demo).mp3" autoplay loop></audio>
+        <audio id="audio" src="assets/mp3/Westlife-Beautiful%20In%20White%20(Demo).mp3" autoplay loop></audio>
         <!--one-->
         <div class="swiper-slide one">
             <img src="assets/img/hongsekuang.png" class="one_kuang_one ani" swiper-animate-effect="fadeInUp"
@@ -214,6 +215,29 @@
             }
         }
     });
+
+    //--创建页面监听，等待微信端页面加载完毕 触发音频播放
+    document.addEventListener('DOMContentLoaded', function () {
+        function audioAutoPlay() {
+            var audio = document.getElementById('audio');
+            audio.play();
+            document.addEventListener("WeixinJSBridgeReady", function () {
+                audio.play();
+            }, false);
+        }
+
+        audioAutoPlay();
+    });
+
+    //--创建触摸监听，当浏览器打开页面时，触摸屏幕触发事件，进行音频播放
+    function audioAutoPlay() {
+        var audio = document.getElementById('audio');
+        audio.play();
+        document.removeEventListener('touchstart', audioAutoPlay);
+    }
+
+    document.addEventListener('touchstart', audioAutoPlay);
+
 </script>
 </body>
 </html>
