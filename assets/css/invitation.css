@@ -105,3 +105,86 @@ img {
     right: 5%;
     width: 20%;
 }
+
+/*two*/
+.two_bg {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/beijing.png");
+}
+
+.two_hongse_kuang {
+    position: absolute;
+    width: 90%;
+    height: 95%;
+}
+
+.leftDengLong {
+    position: absolute;
+    left: 3%;
+    top: -2%;
+    width: 15%;
+}
+
+.rightDengLong {
+    width: 15%;
+    position: absolute;
+    top: -2%;
+    right: 3%;
+}
+
+.two_photo_one {
+    position: absolute;
+    width: 65%;
+    top: 14%;
+}
+
+.two_photo_one img {
+    border: 1px solid #ffffff;
+}
+
+.name {
+    position: absolute;
+    display: flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 73%;
+    color: rgb(242, 219, 179);
+}
+
+.name .imgSpan {
+    width: 10%;
+}
+
+.white_bg {
+    position: absolute;
+    bottom: 5%;
+}
+
+.two_we {
+    position: absolute;
+    width: 8%;
+    bottom: 9.5%;
+}
+
+.two_red_line {
+    position: absolute;
+    bottom: 5%;
+}
+
+.two_left_ren {
+    position: absolute;
+    width: 23%;
+    bottom: -1%;
+    left: -5%;
+}
+
+.two_right_ren {
+    position: absolute;
+    width: 23%;
+    bottom: -1%;
+    right: -8%;
+}
