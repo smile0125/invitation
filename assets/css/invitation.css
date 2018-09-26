@@ -85,8 +85,9 @@ img {
 
 .rightRBox {
     position: absolute;
-    right: -10%;
+    right: -16%;
     bottom: -10%;
+    z-index: 1;
 }
 
 .yanhuaBox1 {
