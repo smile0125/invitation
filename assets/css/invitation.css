@@ -188,3 +188,38 @@ img {
     bottom: -1%;
     right: -8%;
 }
+
+/*three*/
+.three_title {
+    position: absolute;
+    width: 65%;
+    top: 10%;
+}
+
+.three_title_text {
+    color: rgb(242, 219, 179);
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    font-size: 1.5rem;
+}
+
+.three_content_text {
+    position: absolute;
+    color: rgb(242, 219, 179);
+    width: 80%;
+    text-align: left;
+    font-size: 14px;
+    top: 22%;
+}
+
+.three_content_text div {
+    text-align: right;
+}
+
+.three_photo {
+    position: absolute;
+    width: 78%;
+    bottom: 20%;
+    border: 1px solid gold;
+}
